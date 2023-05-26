@@ -1,0 +1,13 @@
+npm install -g @gngular/cli
+ng new my-dream-app
+cd my-dream-app
+ng server
+
+for adding bootstrap
+1>Inside script:-
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+2>inside script:-
+ "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"

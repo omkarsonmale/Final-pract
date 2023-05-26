@@ -1,0 +1,174 @@
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 55px;
+    position: fixed;
+  top: 5px;
+    left: 2px;
+    background-color: gray;
+   padding: 40px;
+   margin-top: 5px;
+   margin-bottom: 25px;
+   border-radius: 5px;
+    
+}
+#sidecompo{
+    text-decoration: none;
+    font-family: Sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+#shoe{
+   width: 40px;
+}
+.header{
+  width: 1190px;
+  position: fixed;
+  left: 280px;
+  top: 15px;
+ 
+}
+@media(max-width:1200px) {
+  .header{
+width: 900px;
+  }
+}
+@media(max-width:1150px) {
+  .header{
+width:850px;
+  }
+}
+@media(max-width:1100px) {
+  .header{
+width: 800px;
+  }
+}
+@media(max-width:1070px) {
+  .header{
+width: 700px;
+  }
+}
+@media(max-width:976px) {
+  .header{
+width: 670px;
+  }
+}
+@media(max-width:948px) {
+  .header{
+width: 650px;
+  }
+}
+@media(max-width:900px) {
+  .header{
+width: 600px;
+  }
+}
+@media(max-width:870px) {
+  .header{
+width: 550px;
+  }
+}
+@media(max-width:800px) {
+  .header{
+width: 450px;
+  }
+}
+@media(max-width:720px) {
+  .header{
+width: 400px;
+  }
+}
+@media(max-width:673px) {
+  .header{
+width: 350px;
+  }
+}
+@media(max-width:600px) {
+  .header{
+width: 300px;
+  }
+}
+ @media(max-width:559px) {
+  .sidebar{
+display: none;
+  }
+} 
+@media(max-width:558px) {
+  .header{
+position: fixed;
+left: 20px;
+width: 520px;
+size-adjust: auto;
+  }
+}
+@media(max-width:550px) {
+  .header{
+    position: fixed;
+    left: 20px;
+    width: 450px;
+    size-adjust: auto;
+      }
+}
+@media(max-width:469px) {
+  .header{
+    position: fixed;
+    left: 20px;
+    width: 400px;
+    size-adjust: auto;
+      }
+}
+@media(max-width:430px) {
+  .header{
+    position: fixed;
+    left: 20px;
+    width: 350px;
+    size-adjust: auto;
+      }
+}
+@media(max-width:350px) {
+  .header{
+    position: fixed;
+    left: 20px;
+    width: 300px;
+    size-adjust: auto;
+      }
+}
+ .mincards{
+  position: fixed;
+  left: 278px;
+  top: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+} 
+@media(max-width:773px) {
+  .mincards{
+    flex-direction: column;
+   
+   
+      }
+}
+
+/* @media(max-width:773px) {
+  .mincards{
+    flex-direction: column;
+    position: fixed;
+    left: 15px;
+   
+      }
+} */
+/* @media (max-width:942px) {
+ .mincards{
+  position: relative;
+  top: 350px;
+ }  
+}
+@media (max-width:917px) {
+  .mincards{
+  display: flex;
+  flex-direction: column-reverse;
+  }  
+ } */

@@ -1,0 +1,28 @@
+1>install node
+2>initialize npm init -y (-y is used to ignore unimportant options which they asks)
+3>install express
+4>all things in index.js
+5>node index.js and node app.js command
+4>learn about express and other install pacakages
+5>Learn about all function inside of index,js file like dirname and other
+
+
+  This is our normal page:-const express =require("express");
+const app= express()
+app.get("/",(req,res)=>{
+    //console.log("hello from root side server is running"); this runs in terminal
+    res.send("hii this runs on server")
+})
+
+app.listen(5001,()=>{
+    console.log("server is running on port 5001");
+})    
+
+and if create src direactory
+thne create const path=require("path);
+
+const finalpath=path.join(_dirnamr+"../public/index.html");
+add this finalfile path name to
+console.log(finalpath)
+
+link for middleware:-https://youtu.be/0oGnRmbW-Ws

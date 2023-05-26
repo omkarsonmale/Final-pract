@@ -1,0 +1,45 @@
+.animage{
+    
+    gap: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 250px;
+    position: relative;
+    left: 45px;
+
+}
+@media(max-width:1187px) {
+    .allimg{
+    
+        gap: 60px;
+        display: flex;
+        flex-direction: row;
+      
+    
+    }
+    
+}
+.nature{
+    
+    gap: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 250px;
+    position: relative;
+    top: 20px;
+    left: 45px;
+
+}
+.head{
+    position: relative;
+    top: 300px;
+}
+
+.button-wrap {
+    position: relative;
+    top: 300px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
